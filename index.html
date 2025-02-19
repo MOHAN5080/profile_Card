@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile card</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        .upper {
+            height: 200px;
+            width: 360px;
+            background-color: darkorchid;
+            border-top-left-radius: 6em;
+            border-top-right-radius: 6em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .krishna  {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .krishna img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .lower {
+            height: auto;
+            width: 360px;
+            background-color: grey;
+            border-bottom-right-radius: 6em;
+            padding: 0px;
+            text-align: center;
+            margin-top: -10px; /* Reduce gap */
+        }
+    </style>
+</head>
+<body>
+    <div class="upper">
+        <div class="krishna">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Anil_Chauhan_Chief_of_Defence_Staff_%28CDS%29.jpg/220px-Anil_Chauhan_Chief_of_Defence_Staff_%28CDS%29.jpg" alt="Anil Chauhan">
+        </div>
+    </div>
+    
+    <div class="lower">
+        <h1>Name: Anil Chauhan</h1>
+        <h2>Date Of Birth: <span>18 May 1961</span></h2>
+        <h2>Rank: <span>General</span></h2>
+        <h3>Medals:</h3>
+        <p>Vishisht Seva Medal in 2011, the Sena Medal in 2014,<br> the Ati Vishisht Seva Medal in 2015,<br> the Uttam Yudh Seva Medal in 2018,<br> and the Param Vishisht Seva Medal in 2020.</p>
+    </div>
+</body>
+</html>
